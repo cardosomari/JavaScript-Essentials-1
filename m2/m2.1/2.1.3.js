@@ -1,0 +1,11 @@
+let primitivos = ["string", "number", "boolean","null", "undefined", "bigInt", "symbol"];
+console.log(primitivos);
+let s = "texto";
+let n = 17;
+let b = true;
+let nul = null;
+let u = undefined;
+let bi = 170n;
+let sy = Symbol;
+console.log(s, n, b, nul, u, bi, sy);
+console.log(typeof sy);
